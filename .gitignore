@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+
+# Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+
+# Environment
+.env
+.env.*
+*.env
+*.venv
+.venv/
+pip-log.txt
+
+# Pipenv
+Pipfile.lock
+
+# VSCode and IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Migrations (optional, if you prefer generating fresh ones)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Tests
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.coverage
+
+# Swagger auto-generated
+*.swagger.json
+*.swagger.yaml
